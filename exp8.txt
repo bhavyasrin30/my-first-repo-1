@@ -1,26 +1,15 @@
+<!DOCTYPE html>
 <html>
 <head>
-<title>
-html table tag
-</title>
+<style>
+h1::before {
+content: "★ ";
+color: gold;
+}
+</style>
+<title>Before Element</title>
 </head>
 <body>
-<table border="1">
-<tr>
-<th>Name</th>
-<th>Age</th>
-<th>City</th>
-</tr>
-<tr>
-<th>joshua</th>
-<th>29</th>
-<th>Los angeles</th>
-</tr>
-<tr>
-<th>jay</th>
-<th>23</th>
-<th>America</th>
-</tr>
-</table>
+<h1>Welcome</h1>
 </body>
 </html>
